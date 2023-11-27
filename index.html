@@ -1,0 +1,462 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+          <div class="d-flex align-items-center">
+            <img src="./resources/Group 2.png" class="shortcut-script-app-1-zof me-3" alt="Logo" width="100" height="50">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+      
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <form class="d-flex me-2">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+      
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fas fa-shopping-cart"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fas fa-user"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+
+
+      <!-- carosol  -->
+
+      <div id="bannerSlider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#bannerSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#bannerSlider" data-slide-to="1"></li>
+          <li data-target="#bannerSlider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active position-relative">
+            <img src="./resources/carosol_background.png" class="d-block w-100 h-100" alt="Slide 1">
+            <img src="resources/Iphone-Image.png" class="overlay-image" alt="Overlay Image">
+            <div class="carousel-text">
+              <h5>Pro.Beyond</h5>
+              <h1>Iphone 14 Pro</h1>
+              <p>Created to change everything for the better. For everyone</p>
+              <button class="btn btn-primary carousel-button">Shop Now</button>
+            </div>
+          </div>
+          <div class="carousel-item position-relative">
+            <img src="./resources/carosol_background.png" class="d-block w-100 h-100" alt="Slide 2">
+            <img src="resources/Iphone-Image.png" class="overlay-image" alt="Overlay Image">
+            <div class="carousel-text">
+              <h5>Pro.Beyond </h5>
+              <h1>Iphone 14 Pro</h1>
+              <p>Created to change everything for the better. For everyone</p>
+              <button class="btn btn-primary carousel-button">Shop Now</button>
+            </div>
+          </div>
+          <div class="carousel-item position-relative">
+            <img src="./resources/carosol_background.png" class="d-block w-100 h-100" alt="Slide 3">
+            <img src="resources/Iphone-Image.png" class="overlay-image" alt="Overlay Image">
+            <div class="carousel-text">
+              <h5>Pro.Beyond</h5>
+              <h1>Iphone 14 Pro </h1>
+              <p>Created to change everything for the better. For everyone</p>
+              <button class="btn btn-primary carousel-button">Shop Now</button>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#bannerSlider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#bannerSlider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
+<!-- banner  -->
+
+<div class="">
+  <div class="row">
+    <!-- First Banner -->
+    <div class="col-lg-6 mb-4">
+      <div class="row">
+        <div class="col-md-8">
+          <img src="./resources/PlayStation.png" class="img-fluid" alt="Banner Image">
+        </div>
+        <div class="col-md-4 d-flex align-items-center">
+          <div class="p-1 text-dark">
+            <h2>iPad 9</h2>
+            <p>Powerful. Easy to use. Versatile. iPad is designed for all the things you love to do. Work, play, create, learn, stay connected, and more. All at an incredible value.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Banner -->
+    <div class="col-lg-6">
+      <div class="row mb-4 custom-bg-color ">
+        <div class="col-md-8 custom-bg-color ">
+          <img src="./resources/Iphone 14 pro 1.png" class="img-fluid" alt="Banner Image">
+        </div>
+        <div class="col-md-4 d-flex align-items-center">
+          <div class="p-1 text-dark">
+            <h2>AirPods Max</h2>
+            <p>Get 6 months of Apple Music free with your AirPods Max</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Third Banner -->
+<div class="container">
+  <div class="row">
+    <!-- Image Column -->
+    <div class="col-lg-6 order-lg-2">
+      <div class="position-relative text-lg-end">
+        <img src="./resources/Group 6.png" class="img-fluid" alt="Banner Image">
+      </div>
+    </div>
+    
+    <!-- Text Column -->
+    <div class="col-lg-6 order-lg-1">
+      <div class="p-4 text-dark">
+        <h1 class="text-lg-start">Macbook Air</h1>
+        <p class="text-lg-start">Strikingly thin and fast so you can work, play, or create anywhere..</p>
+        <div class="text-lg-start">
+          <button class="btn btn-primary banner-button">Shop Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- browse by category  -->
+
+<div class="container">
+  <div class="category">
+    <div class="top">
+      <h5 class="browse-by-category text-dark">Browse By Category</h5>
+      <div class="arrows">
+        <img class="icon-32px-arrow" src="./resources/Arrow-left.jpg" alt="Arrow 1"> 
+        <img class="icon-32px-arrow" src="./resources/Arrow-right.jpg" alt="Arrow 2"> 
+      </div>
+    </div>
+    <div class="categories-VnD">
+  </div>   
+</div>      
+ <!--  card -->
+
+ <div class="container">
+  <div class="row">
+    <!-- Card 1 -->
+    <div class="col-md-2">
+      <div class="card text-center">
+        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+          <div style="width: 48px; height: 48px; position: relative">
+          </div>
+          <div>
+            <img src="/resources/icon/Phones.png" class="card-img-top" alt="Image 1" style="height: 80px; width: 80px;">
+          </div>
+          <div style="text-align: center; color: black; font-size: 16px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word">
+            Phones
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Card 2 -->
+    <div class="col-md-2">
+      <div class="card text-center">
+        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+          <div style="width: 48px; height: 48px; position: relative">
+          </div>
+          <div>
+            <img src="/resources/icon/Smart Watches.png" class="card-img-top" alt="Image 1" style="height: 80px; width: 80px;">
+          </div>
+          <div style="text-align: center; color: black; font-size: 16px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word">
+            Smart Watches
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-2">
+      <div class="card text-center">
+        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+          <div style="width: 48px; height: 48px; position: relative">
+          </div>
+          <div>
+            <img src="/resources/icon/Cameras.png" class="card-img-top" alt="Image 1" style="height: 80px; width: 80px;">
+          </div>
+          <div style="text-align: center; color: black; font-size: 16px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word">
+            Cameras
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-2">
+      <div class="card text-center">
+        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+          <div style="width: 48px; height: 48px; position: relative">
+          </div>
+          <div>
+            <img src="/resources/icon/Headphones.png" class="card-img-top" alt="Image 1" style="height: 80px; width: 80px;">
+          </div>
+          <div style="text-align: center; color: black; font-size: 16px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word">
+            Headphones
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-2">
+      <div class="card text-center">
+        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+          <div style="width: 48px; height: 48px; position: relative">
+          </div>
+          <div>
+            <img src="/resources/icon/Computers.png" class="card-img-top" alt="Image 1" style="height: 80px; width: 80px;">
+          </div>
+          <div style="text-align: center; color: black; font-size: 16px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word">
+            Computers
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-2">
+      <div class="card text-center">
+        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+          <div style="width: 48px; height: 48px; position: relative">
+          </div>
+          <div>
+            <img src="/resources/icon/Gaming.png" class="card-img-top" alt="Image 1" style="height: 80px; width: 80px;">
+          </div>
+          <div style="text-align: center; color: black; font-size: 16px; font-family: Montserrat; font-weight: 500; line-height: 24px; word-wrap: break-word">
+            Gaming
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+ <!-- new arrival -->
+      
+ <div class="d-flex justify-content-start align-items-center gap-5">
+  <div class="d-flex flex-column justify-content-center align-items-start">
+    <div class="text-center text-black fs-5 fw-bold pe-3 text-dark">New Arrival</div>
+    <div class="border-top border-2 border-dark w-100 mt-2"></div>
+  </div>
+  <div class="text-center text-secondary fs-5 fw-bold px-3">Bestseller</div>
+  <div class="text-secondary fs-5 fw-bold px-3">Featured Products</div>
+</div>
+
+<!-- Product card  -->
+
+<d class="row">
+  <div class="col-md-3">
+    <div class="card">
+        <div class="card-body" style="position: relative;">
+            <div style="width: 32px; height: 32px; position: absolute; top: 0; right: 0;">
+                <img src="./resources/icon/love-icon.png" alt="Small Icon" style="width: 100%; height: 100%;">
+            </div>
+            <img class="img-fluid" src="./resources/Iphone 14 pro 1-2.png" alt="Product Image">
+            <div>
+                <div class="text-center text-black fs-6 fw-bold text-dark">Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)</div>
+                <div class="text-center text-black fs-5 fw-bold text-dark">$1400</div>
+                <div class="text-center">
+                    <button class="btn btn-dark btn-sm">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-3">
+  <div class="card">
+      <div class="card-body" style="position: relative;">
+          <div style="width: 32px; height: 32px; position: absolute; top: 0; right: 0;">
+              <img src="./resources/icon/love-icon.png" alt="Small Icon" style="width: 100%; height: 100%;">
+          </div>
+          <img class="img-fluid" src="./resources/Iphone 14 pro 1-3.png" alt="Product Image">
+          <div>
+              <div class="text-center text-black fs-6 fw-bold text-dark">Effective Pixels Approx. 24.1 megapixels 60GB Deep black (ME8TIIX/A)</div>
+              <div class="text-center text-black fs-5 fw-bold text-dark">$1900</div>
+              <div class="text-center">
+                  <button class="btn btn-dark btn-sm">Buy Now</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="col-md-3">
+  <div class="card">
+      <div class="card-body" style="position: relative;">
+          <div style="width: 32px; height: 32px; position: absolute; top: 0; right: 0;">
+              <img src="./resources/icon/love-icon-2.png" alt="Small Icon" style="width: 100%; height: 100%;">
+          </div>
+          <img class="img-fluid" src="./resources/Iphone 14 pro 1-1.png" alt="Product Image">
+          <div>
+              <div class="text-center text-black fs-6 fw-bold text-dark">Tough 49mm titanium case with customizable Action (WE8NMIX/A) </div>
+              <div class="text-center text-black fs-5 fw-bold text-dark">$800</div>
+              <div class="text-center">
+                  <button class="btn btn-dark btn-sm">Buy Now</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="col-md-3">
+  <div class="card">
+      <div class="card-body" style="position: relative;">
+          <div style="width: 32px; height: 32px; position: absolute; top: 0; right: 0;">
+              <img src="./resources/icon/love-icon.png" alt="Small Icon" style="width: 100%; height: 100%;">
+          </div>
+          <img class="img-fluid" src="./resources/Iphone 14 pro 1.png" alt="Product Image">
+          <div>
+              <div class="text-center text-black fs-6 fw-bold text-dark">AirPods Max — a perfect balance of exhilarating high-fidelity audio  (AQ0T3RX/A)</div>
+              <div class="text-center text-black fs-5 fw-bold text-dark">$900</div>
+              <div class="text-center">
+                  <button class="btn btn-dark btn-sm">Buy Now</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<!-- last Banner -->
+
+<div class="container-fluid overflow-hidden">
+  <div class="row">
+    <div class="col-md-12 banner">
+      <div class="row">
+        <!-- Left side image -->
+        <div class="col-md-4 position-relative">
+          <img class="banner-img img-fluid" src="./resources/image 19.png" alt="Left Image">
+        </div>
+
+        <div class="col-md-4 align-self-center text-center">
+          <h1 class="last-banner-text">11.11 sale</h1>
+          <p>Mark your calendars now! Wine Library is set to offer up our biggest sale of the year on November</p>
+        </div>
+
+        <!-- Right side image -->
+        <div class="col-md-4 position-relative d-none d-md-block">
+          <img class="position-absolute start-50 translate-middle" style="max-width: 100%;" src="./resources/right-img.png" alt="Right Image">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- footer -->
+<footer class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 info">
+        <div class="group-2">
+          <img class="shortcut-script" src="./resources/Group 2.png" alt="Logo" width="100" height="50">
+        </div>
+      </div>
+      <!-- Social Icons -->
+      <div class="col-md-2 social-icons-8V3">
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <!-- Footer Navigation Sections -->
+      <div class="row">
+        <div class="col-md-6">
+          <!-- Services Section -->
+          <div class="section">
+            <p class="services">Services</p>
+            <p class="bonus-programgift">
+              Bonus program<br>
+              Gift cards<br>
+              Credit and payment<br>
+              Service contracts<br>
+              Non-cash account<br>
+              Payment
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <!-- Assistance to the Buyer Section -->
+          <div class="section">
+            <p class="assistance-to-the-buyer">Assistance to the buyer</p>
+            <p class="find-an-orderterms">
+              Find an order<br>
+              Terms of delivery<br>
+              Exchange and return of goods<br>
+              Guarantee<br>
+              Frequently asked questions<br>
+              Terms of use of the site
+            </p>
+          </div>
+        </div>
+      </div>
+  </div>
+</footer>     
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+
+
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

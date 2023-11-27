@@ -1,0 +1,253 @@
+
+  /* Add any custom styles here */
+  .custom-navbar {
+    background-color: #1A187A;
+  }
+  .navbar-brand {
+    font-size: 24px;
+  }
+  .logo-container {
+    margin-right: 30px; /* Adjust the margin as needed */
+  }
+  .navbar-nav .nav-link {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+
+  .icon-32px-user-qjj {
+    width: 32px;
+    height: 32px;
+    /* Additional styles for the icons if needed */
+  }
+  .carousel-inner {
+    height: 400px; /* Set the carousel height */
+  }
+  .carousel-item {
+    height: 100%; /* Ensure the carousel item takes full height */
+  }
+  .carousel-content {
+    position: relative;
+    height: 400px;
+  }
+  
+  .carousel-text {
+    position: absolute;
+    top: 50%;
+    left: 5%; /* Adjust left position as needed */
+    transform: translateY(-50%);
+    color: black; /* Adjust text color */
+    width: 40%; /* Adjust text width */
+    max-width: 300px; /* Set maximum text width */
+  }
+  
+  .carousel-text h5,.carousel-text h1,.carousel-text p {
+    margin: 0;
+  }
+  .carousel-text{
+    height: 70px;
+  }
+  
+  .carousel-text .carousel-button {
+    background-color: #1A187A; /* Set the button background color */
+    color: #ffffff; /* Set the button text color */
+    /* Add any other necessary styles */
+  }
+  .carousel-inner .position-relative {
+    position: relative;
+  }
+  
+  .carousel-inner .overlay-content {
+    position: absolute;
+    top: 20px; /* Adjust top position for the overlay content */
+    right: 20px; /* Adjust right position for the overlay content */
+    background-color: rgba(255, 255, 255, 0.8); /* Set the background color with transparency */
+    padding: 20px; /* Adjust padding for the overlay content */
+    border-radius: 8px; /* Add border-radius as needed */
+    display: flex; /* Display content in a row */
+    align-items: center; /* Center content vertically */
+  }
+  
+  .carousel-inner .overlay-text {
+    margin-right: 20px; /* Adjust margin between text and image */
+  }
+  
+  .carousel-inner .overlay-image {
+    position: absolute;
+    top: 80px; /* Adjust top position for the image */
+    right: 20px; /* Adjust right position for the image */
+    width: 250px; /* Set the width of the overlay image */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 1; /* Ensure the image stays on top */
+    /* Add padding or margins as needed */
+  }
+  /* For mobile devices */
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item {
+    height: 300px; /* Adjust the height for mobile devices */
+    position: relative;
+  }
+
+  .carousel-inner .carousel-item img {
+    object-fit: cover; /* Ensure the image covers the entire carousel item */
+    height: 100%;
+    width: 100%;
+  }
+
+  .carousel-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center-align text for mobile devices */
+    color: #1A187A; /* Adjust text color */
+    padding: 0 15px; /* Add padding to the text */
+  }
+
+  .carousel-text h5,
+  .carousel-text h1,
+  .carousel-text p {
+    margin: 5px 0; /* Adjust margins for mobile devices */
+  }
+
+  .carousel-button {
+    display: block;
+    margin: 10px auto; /* Center the button for mobile devices */
+    background-color: #1A187A; /* Adjust button color */
+    color: #fff; /* Adjust button text color */
+  }
+  
+  .overlay-image {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30%; /* Adjust width for mobile devices */
+    max-width: 80px; /* Limit maximum width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+
+/* For tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-inner .carousel-item {
+    /* Adjust styles for medium screens */
+  }
+}
+
+/* For larger desktops and laptops */
+@media (min-width: 992px) {
+  .carousel-inner .carousel-item {
+    /* Adjust styles for large screens */
+  }
+}
+
+.custom-bg-color {
+  background-color: #ADC2D7;
+}
+
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* To place the items at the beginning and end of the container */
+}
+
+.arrows-hrM {
+  /* Optional: You can add margin-left to create space between the heading and arrows */
+  margin-left: 10px; /* Adjust as needed */
+}
+
+.icon-32px-arrow-TKj,
+.icon-32px-arrow-PDP {
+  width: 32px;
+  height: 32px;
+  /* Other styles for your arrow icons */
+}
+
+
+.category {
+  padding: 20px; /* Adding padding around the category container */
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px; /* Adding padding at the bottom of the top section */
+}
+
+.arrows {
+  /* Optional: Adjust margins if you want space between elements */
+  margin-left: 10px;
+}
+
+.icon-32px-arrow,
+.icon-32px-arrow {
+  width: 32px;
+  height: 32px;
+  /* Other styles for your arrow icons */
+}
+
+.browse-by-category {
+  /* Your styles for the category heading */
+  margin: 0; /* Reset default margins if needed */
+  /* Additional styles as per your design */
+}
+.banner {
+  background-color: #958AD4; /* Your desired background color */
+  padding: 20px; /* Adjust padding as needed */
+  color: white; /* Text color */
+  text-align: center;
+}
+
+.banner-img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: white; /* Text color */
+  font-family: Arial, sans-serif; /* Optional: Font family */
+}
+
+.banner {
+  padding: 20px; /* Adjust padding as needed */
+  text-align: center;
+}
+
+.banner-img {
+  max-width: 100%;
+  height: auto;
+}
+.banner-section {
+  background-color: #958AD4; /* Your desired banner background color */
+  color: white; /* Text color */
+  padding: 20px; /* Adjust padding as needed */
+}
+
+/* Adjust banner styles */
+.banner {
+  text-align: center;
+}
+
+.banner-img {
+  max-width: 100%;
+  height: auto;
+}
+.move-right {
+  margin-left: -10px; /* Adjust as needed to move the image further left */
+}
+.move-left {
+  margin-left: -10px; /* Adjust as needed to move the image further left */
+}
+.last-banner-text{
+  color: #1A187A;
+}
+.footer {
+  background-color: black; /* Change background color to black */
+  /* Other styles */
+}
+.banner-button{
+  background-color: #1A187A;
+}
